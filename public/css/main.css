@@ -1,0 +1,14 @@
+body {
+  background-color: #F5FFFA;
+}
+#nav {
+  background-color: #228B22;
+}
+#hero {
+  background-color: #F5FFFA;
+}
+#box{
+  background-color: #8FBC8F;
+  padding: 10px;
+  border: 1px solid secondary;
+}

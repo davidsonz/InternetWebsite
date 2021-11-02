@@ -1,0 +1,30 @@
+doctype 5
+html
+  head
+    title Title
+    meta charset="utf-8"
+    meta name="author" content="Author"
+    meta name="viewport" content="width=device-width, initial-scale=1"
+    link href="/css/bootstrap.min.css" rel="stylesheet" as="style"
+    link href="/fonts/bootstrap-icons.woff2" rel="preload" as="font" type="font/woff2"
+    link href="/css/bootstrap-icons.css" rel="stylesheet" as="style"
+    link href="/css/main.css" rel="stylesheet" as="style"
+
+  body
+
+    header class=[:"site-header", :"sticky-top", :"py-1"] id="nav"
+      nav class=[:"container", :"d-flex", :"flex-column", :"flex-md-row", :"justify-content-between"]
+        a class=[:"py-2", :"text-light", :"text-decoration-none"] href="/" Home
+        a class=[:"py-2", :"text-light", :"text-decoration-none"] href="/HowItWorks" How it works
+        a class=[:"py-2", :"text-light", :"text-decoration-none"] href="/EnvironmentalImpact" Environmental impact
+        a class=[:"py-2", :"text-light", :"text-decoration-none"] href="/MyResearch" My Research
+        div class=[:"py-2", :"text-light", :"text-decoration-none"]
+          a href="https://twitter.com/zoe_davidson_nz" target="_blank" class="btn btn-light"
+            i class="bi bi-twitter"
+          a href="https://orcid.org/0000-0001-9644-0286" target="_blank" class="btn btn-light"
+            i class="bi bi-link-45deg"
+
+
+    == yield
+
+    script src="/js/bootstrap.min.js"
