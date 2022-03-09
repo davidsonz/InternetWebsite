@@ -1,4 +1,5 @@
 require 'sinatra'
+require 'slim'
 class Website < Sinatra::Base
 	get '/' do
 		slim :index, layout: :layout
